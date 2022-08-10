@@ -12,6 +12,7 @@
 		63AACF9428A3D8A600C9296A /* ToDoItemModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AACF9328A3D8A600C9296A /* ToDoItemModelTests.swift */; };
 		63AACF9528A3D8A600C9296A /* ToDoItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AACF8728A3D8A500C9296A /* ToDoItemModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63AACF9F28A3D8D400C9296A /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AACF9E28A3D8D400C9296A /* ToDoItem.swift */; };
+		63D1803F28A3F07400414704 /* Ellipse 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D1803E28A3F07400414704 /* Ellipse 0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,7 @@
 		63AACF8E28A3D8A600C9296A /* ToDoItemModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoItemModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AACF9328A3D8A600C9296A /* ToDoItemModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemModelTests.swift; sourceTree = "<group>"; };
 		63AACF9E28A3D8D400C9296A /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
-		63AACFA028A3E3F400C9296A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D1803E28A3F07400414704 /* Ellipse 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ellipse 0.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +77,7 @@
 			children = (
 				63AACF9E28A3D8D400C9296A /* ToDoItem.swift */,
 				63AACF8728A3D8A500C9296A /* ToDoItemModel.h */,
-				63AACFA028A3E3F400C9296A /* Assets.xcassets */,
+				63D1803E28A3F07400414704 /* Ellipse 0.png */,
 				63AACF8828A3D8A500C9296A /* ToDoItemModel.docc */,
 			);
 			path = ToDoItemModel;
@@ -182,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D1803F28A3F07400414704 /* Ellipse 0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

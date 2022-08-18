@@ -130,3 +130,20 @@ extension ToDoItem: ToDoItemProtocol {
         static let modificationDate = "modificationDate"
     }
 }
+
+extension ToDoItem {
+    
+    public func makeComplited() -> ToDoItem {
+        let changingItem = self
+        let changedItem =  ToDoItem(
+            id: changingItem.id,
+            text: changingItem.text,
+            priority: changingItem.priority,
+            deadline: changingItem.deadline,
+            isDone: true,
+            creationDate: changingItem.creationDate,
+            modificationDate: changingItem.modificationDate
+        )
+        return changedItem
+    }
+}
